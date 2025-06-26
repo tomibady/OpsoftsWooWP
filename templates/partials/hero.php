@@ -1,9 +1,8 @@
-<section class="py-12 bg-herogray h-[55vh]">
+<section class="py-12 bg-herogray h-[70vh] overflow-hidden">
   <div class="grid grid-cols-2 mx-auto w-[90vw] gap-10">
-
     <!-- Left Grid -->
-    <div class="flex flex-col items-start px-8 justify-left w-[75%] space-y-4">
-      <h1 class="mb-4 text-6xl font-bold font-integral">find clothes that matches your style</h1>
+    <div class="flex flex-col px-8  w-[85%] space-y-6 my-auto h-full">
+      <h1 class="mb-4 font-bold text-7xl font-integral">find clothes that matches your style</h1>
       <p class="text-sm text-gray-700">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
       <button class="w-40 px-4 py-2 font-light text-white bg-black border-2 rounded-full font-manrope hover:bg-woolemon hover:border-black hover:text-black">Shop Now</button>
 
@@ -28,7 +27,30 @@
 
     <!-- Right Grid -->
     <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/hero-image.png'); ?>" alt="Hero Image" class="object-cover w-full h-full" />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/hero-image.png'); ?>" alt="Hero Image" class="object-cover w-full h-full" />
+    </div>
+  </div>
+</section>
+<section class="bg-black">
+  <div class="mx-auto max-w-[90vw] py-4 justify-between flex items-center">
+    <div class="flex justify-center">
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/versace.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/zara.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/gucci.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/prada.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/calvin.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
     </div>
   </div>
 </section>
