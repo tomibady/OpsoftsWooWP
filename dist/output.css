@@ -932,6 +932,30 @@ select{
   height: 100%;
 }
 
+.h-\[60vh\]{
+  height: 60vh;
+}
+
+.h-\[70vh\]{
+  height: 70vh;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.h-0{
+  height: 0px;
+}
+
+.h-2{
+  height: 0.5rem;
+}
+
+.h-28{
+  height: 7rem;
+}
+
 .w-40{
   width: 10rem;
 }
@@ -958,6 +982,10 @@ select{
 
 .w-full{
   width: 100%;
+}
+
+.w-\[75\%\]{
+  width: 75%;
 }
 
 .max-w-\[300px\]{
@@ -1011,6 +1039,10 @@ select{
 
 .flex-col{
   flex-direction: column;
+}
+
+.content-center{
+  align-content: center;
 }
 
 .items-center{
@@ -1165,6 +1197,11 @@ select{
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-contain{
@@ -1351,6 +1388,11 @@ select{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-bold{
