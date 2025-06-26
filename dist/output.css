@@ -861,6 +861,11 @@ select{
   margin-right: auto;
 }
 
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -919,6 +924,30 @@ select{
   height: 100%;
 }
 
+.h-\[60vh\]{
+  height: 60vh;
+}
+
+.h-\[70vh\]{
+  height: 70vh;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.h-0{
+  height: 0px;
+}
+
+.h-2{
+  height: 0.5rem;
+}
+
+.h-28{
+  height: 7rem;
+}
+
 .w-40{
   width: 10rem;
 }
@@ -943,6 +972,10 @@ select{
   width: 75%;
 }
 
+.w-\[85\%\]{
+  width: 85%;
+}
+
 .max-w-\[300px\]{
   max-width: 300px;
 }
@@ -953,6 +986,14 @@ select{
 
 .max-w-\[90vw\]{
   max-width: 90vw;
+}
+
+.max-w-\[\]{
+  max-width: ;
+}
+
+.max-w-\[90\]{
+  max-width: 90;
 }
 
 .flex-none{
@@ -978,6 +1019,10 @@ select{
 
 .flex-col{
   flex-direction: column;
+}
+
+.content-center{
+  align-content: center;
 }
 
 .items-start{
@@ -1030,6 +1075,12 @@ select{
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.space-y-6 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
 .divide-y > :not([hidden]) ~ :not([hidden]){
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -1061,6 +1112,10 @@ select{
 .divide-indigo-500 > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 1;
   border-color: rgb(99 102 241 / var(--tw-divide-opacity, 1));
+}
+
+.overflow-hidden{
+  overflow: hidden;
 }
 
 .overflow-y-auto{
@@ -1125,6 +1180,11 @@ select{
   background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
 }
 
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -1179,6 +1239,11 @@ select{
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pl-10{
@@ -1250,6 +1315,11 @@ select{
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-bold{
