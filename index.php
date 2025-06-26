@@ -1,3 +1,3 @@
 <?php get_header(); ?>
-<h1>Welcome to OpsoftsWooWP Theme</h1>
+<?php get_template_part('templates/front-page'); ?>
 <?php get_footer(); ?>
