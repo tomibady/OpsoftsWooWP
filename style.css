@@ -1,6 +1,14 @@
 /*
-Theme Name: OpsoftsWooWP
-Author: Your Name
-Description: WooCommerce theme using TailwindCSS and Vue.js
+Theme Name: Adunni.WP
+Theme URI: https://adunniwp.opsofts.com/
+Author URI: https://opsofts.com
+Text Domain: adunni-woocommerce-theme
+Tags: woocommerce, tailwindcss, vuejs, ecommerce, responsive
+Requires at least: 5.0
+Requires PHP: 7.2
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Author: Opeoluwa Aboaba <tomi.aboaba@opsofts.com>
+Description: Adunni.WP is a modern and responsive WooCommerce theme for start-ups, eCommerce brands, and local businesses looking to enhance their online presence. Built with Tailwind CSS and Vue.js, this theme offers a lightweight, flexible, and developer-friendly architecture. It comes with modular template parts, reusable components, and out-of-the-box WooCommerce compatibility — perfect for growing businesses that value performance and design.
 Version: 1.0
 */
