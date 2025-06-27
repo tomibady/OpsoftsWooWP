@@ -34,45 +34,13 @@
 
 <!-- Partner Logos -->
 <section class="bg-black">
-  <div class="mx-auto max-w-[90vw] py-4 justify-between flex items-center">
-    <div class="flex justify-center">
-<<<<<<<<< Temporary merge branch 1
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/versace.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
-    </div>
-
-    <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/zara.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
-    </div>
-
-    <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/gucci.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
-    </div>
-
-    <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/prada.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
-    </div>
-
-    <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/calvin.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px"/>
-=========
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/versace.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px" />
-    </div>
-
-    <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/zara.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px" />
-    </div>
-
-    <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/gucci.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px" />
-    </div>
-
-    <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/prada.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px" />
-    </div>
-
-    <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/calvin.png'); ?>" alt="Versace Logo" class="object-contain h-full p-4" style="height: 80px" />
->>>>>>>>> Temporary merge branch 2
+  <div class="mx-auto max-w-[90vw] py-4">
+    <div class="grid items-center grid-cols-5 space-x-4">
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/versace.png'); ?>" alt="Versace" />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/zara.png'); ?>" alt="Zara" />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/gucci.png'); ?>" alt="Gucci" />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/prada.png'); ?>" alt="Prada" />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/calvin.png'); ?>" alt="Calvin" />
     </div>
   </div>
 </section>

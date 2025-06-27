@@ -940,6 +940,10 @@ select{
   height: auto;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .w-40{
   width: 10rem;
 }
