@@ -27,7 +27,20 @@
 
     <!-- Right Grid -->
     <div class="flex justify-center">
-      <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/hero-image.png'); ?>" alt="Hero Image" class="object-cover w-full h-full" />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/hero-image.png'); ?>" alt="Hero Image" class="object-cover w-full h-full" />
+    </div>
+  </div>
+</section>
+
+<!-- Partner Logos -->
+<section class="bg-black">
+  <div class="p-6 mx-auto max-w-[90vw]">
+    <div class="grid grid-cols-5 gap-6">
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/versace.png'); ?>" alt="Versace Image"  />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/zara.png'); ?>" alt="Zara Image"  />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/gucci.png'); ?>" alt="Gucci Image"  />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/prada.png'); ?>" alt="Prada Image"  />
+      <img src="<?php echo esc_url(get_template_directory_uri() . '/media/partners/calvin.png'); ?>" alt="Calvin Klein Image"  />
     </div>
   </div>
 </section>
